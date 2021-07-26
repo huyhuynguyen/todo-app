@@ -1,0 +1,47 @@
+/* Header */
+.header-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #808080;
+	padding: 20px 100px;
+}
+
+.header-logo-heading {
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: todoAppFont;
+}
+
+.header-logo-heading-link {
+	text-decoration: none;
+	color: #e5e0e0;
+}
+
+.header-logo-heading-link:hover {
+	text-decoration: none;
+	color: antiquewhite;
+}
+
+.header__link-list {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin-bottom: 0;
+	margin-right: 100px;
+}
+
+.list-item {
+	font-size: 2rem;
+}
+
+.list-item-link {
+	text-decoration: none;
+	color: #fff;
+	padding: 0 10px;
+}
+
+.list-item-link:hover {
+	text-decoration: none;
+	color: #bbf5c9;
+}

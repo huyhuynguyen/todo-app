@@ -1,0 +1,99 @@
+/* Main */
+.main__wrapper {
+    width: 1200px;
+    margin: 20px auto;
+    padding: 15px 100px;
+}
+
+.main__container-heading {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.status-container {
+    font-size: 1.6rem;
+}
+
+.main__container-status-btnEdit-wrapper {
+
+}
+
+.main__container-status-btnEdit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status {
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #ca120c;
+}
+
+.main__container-btn-action-container {
+    display: flex;
+    align-items: center;
+}
+
+.form__group-btn-delete {
+    border: none;
+    background-color: #fff;
+    padding: 0;
+}
+
+.main__container-btnEdit-container {
+    padding-right: 10px;
+}
+
+.main__container-btnEdit {
+    background-color: #ebebeb;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 4px 12px;
+}
+
+.main__container-btnEdit:hover {
+    cursor: pointer;
+}
+
+.edit-text-icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.edit-text {
+    padding-right: 5px;
+    font-size: 1.4rem;
+}
+
+.main__todo-btn-edit-icon {
+    width: 18px;
+}
+
+.main__content-wrapper {
+    margin-top: 25px;
+    border: 1px solid #333;
+}
+
+.main__content-header {
+    background-color: #a55757;
+    border-bottom: 1px solid #333;
+    color: #fff;
+}
+
+.main__content-heading {
+    padding: 10px 20px;
+    font-size: 2rem;
+}
+
+.main__content-container {
+    padding: 10px 20px;
+}
+
+.main__content {
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
